@@ -70,6 +70,16 @@ li a:hover {
 .cli-detail {
     width: 60%;
 }
+
+.cli-detail button {
+    background-color: #383838;
+    border-color: #fff;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 120px;
+    height: 40px;
+    margin: 5px;
+}
   
 .cli-img {
     width: 40%;

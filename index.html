@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catamapp's website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="packages/TweenMax.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+        <h1><center>Welcome to catamapp's website</center></h1>
+        <img src="pictures/pfp.jpg" alt="pfp">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="subdirs/news/news.html">News</a></li>
+            <li><a href="subdirs/projects/projects.html">Projects</a></li>
+            <li><a href="subdirs/contact/contact.html">Contact</a></li>
+            <li><a href="subdirs/about/about.html" onclick="about()">About</a></li>
+        </ul>
+    </nav>
+    <br />
+    
+    <div class="block">
+      <h1>Welcome!</h1>
+      <h2>Top news:</h2>
+      <div class="thumbnail" onclick="homeclickarticle()">
+        <img src="pictures/hired.png" alt="hired">
+        <h2>Catamapp gets a job!</h2>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 catamapp</p>
+    </footer>    
+</body>
+</html>

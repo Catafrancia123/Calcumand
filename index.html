@@ -6,8 +6,9 @@
     <title>catamapp's website</title>
     <link rel="stylesheet" href="style.css">
     <script src="packages/TweenMax.min.js"></script>
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
   </head>
+  
   <body>
     <header>
         <h1><center>Welcome to catamapp's website</center></h1>
@@ -24,17 +25,26 @@
     </nav>
     <br />
     
+    <!-- main menu lol-->
     <div class="block">
       <h1>Welcome!</h1>
       <h2>Top news:</h2>
       <div class="thumbnail" onclick="homeclickarticle()">
-        <img src="pictures/hired.png" alt="hired">
-        <h2>Catamapp gets a job!</h2>
+        <img src="pictures/sad-ghost.png" alt="sad-ghost">
+        <h2>Catamapp is a sad ghost :(</h2>
+        <span id="date"></span>
+      </div>
+      <br />
+      <div class="tips">
+        <h2>Tips:</h2>
+        <ul>
+          <li><p>The color </p><p class="orange">orange</p><p> means its a link.</p></li>
+        </ul>
       </div>
     </div>
 
     <footer>
-      <p>&copy; 2023 catamapp | ver. 1</p>
+      <p>&copy; 2023 catamapp | ver. 1.1 | compiled 1-5-2023</p>
     </footer>    
 </body>
 </html>

@@ -4,5 +4,7 @@ function newsclickarticle() {
 }
 
 function news1() {
-    location.href = "articles/hired/hired.html"
+    location.href = "articles/hired/hired.html" 
 }
+
+

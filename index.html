@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>catamapp's website</title>
+    <link rel="shortcut icon" href="pictures/pfp.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <script src="packages/TweenMax.min.js"></script>
     <script src="index.js" defer></script>
@@ -20,8 +21,9 @@
             <li><a href="subdirs/news/news.html">News</a></li>
             <li><a href="subdirs/projects/projects.html">Projects</a></li>
             <li><a href="subdirs/contact/contact.html">Contact</a></li>
-            <li><a href="subdirs/about/about.html" onclick="about()">About</a></li>
-        </ul>
+            <li><a href="subdirs/about/about.html">About</a></li>
+            <li><a href="subdirs/settings/settings.html">Settings</a></li>
+        </ul> 
     </nav>
     <br />
     
@@ -37,14 +39,22 @@
       <br />
       <div class="tips">
         <h2>Tips:</h2>
-        <ul>
-          <li><p>The color </p><p class="orange">orange</p><p> means its a link.</p></li>
-        </ul>
+        <div id="orangetxt">
+          <p>The color <span class="orange" onclick="orange()">orange</span> means its a link.</p>
+        </div>
+        <br />
+        <p>You are now using a&nbsp;<span id="deviceHtml"></span>.</p>
+        <p><i>hehe boi i spy on you (jk)</i></p>
+      </div>  
+      <div id="updlog">
+        <h2>Update Log: (1.1.1)</h2>
+        <p>Added icon at the title</p>
+        <p>Secret page...</p>
       </div>
     </div>
 
     <footer>
-      <p>&copy; 2023 catamapp | ver. 1.1 | compiled 1-5-2023</p>
+      <p>&copy; 2023 catamapp | ver. 1.1.1 | compiled 19-5-2023</p>
     </footer>    
 </body>
 </html>

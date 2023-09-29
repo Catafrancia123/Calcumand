@@ -42,97 +42,64 @@ li a:hover {
     background-color: #313131;
 }
 
-.news-box {
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.box {
     background-color: #313131;
     color: white;
     padding: 20px;
 }
 
-.news-box h1 {
+.box h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
 }
 
-.news-box h2 {
+.box h2 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
 }
 
-.news-box p {
+.box p {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
 }
 
-.daily-text h2{
+.box span {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    text-align: left;
+    font-size: 15px;
 }
 
-.thumbnails {
-    display: flex;
+.box button {
+    background-color: #383838;
+    border-color: #fff;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 120px;
+    height: 40px;
 }
 
-.thumbnail {
-    width: 500px;
-    height: 300px;
-    border: 1px solid black;
-    cursor: pointer;
-    margin-right: 5px;
-}
-  
-.thumbnail img {
-    width: 100%;
-    height: 70%;
-    object-fit: fill;
-}
-  
-.thumbnail h2 {
-    margin: 10px;
-    font-size: 24px;
-    text-align: center;
+.orange {
+    color: orange;
+    margin: 0 5px;
+    display: inline-block;
+    vertical-align: top;
 }
 
-.thumbnail2 {
-    width: 500px;
-    height: 300px;
-    border: 1px solid black;
-    cursor: pointer;
-    margin-right: 10px;
-}
-  
-.thumbnail2 img {
-    width: 100%;
-    height: 70%;
-    object-fit: fill;
-}
-  
-.thumbnail2 h2 {
-    margin: 10px;
-    font-size: 24px;
-    text-align: center;
+.orangetxt {
+    display: inline;
 }
 
-.thumbnaildc {
-    width: 900px;
-    height: 300px;
-    border: 1px solid black;
-    cursor: pointer;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-  
-.thumbnaildc img {
-    width: 100%;
-    height: 70%;
-    object-fit: fill;
-}
-  
-.thumbnaildc h2 {
-    margin: 10px;
-    font-size: 24px;
-    text-align: center;
-}
-  
 footer {
     background-color: #383838;
     color: #fff;

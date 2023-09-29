@@ -1,5 +1,9 @@
-function newsclickarticle() {
+function news2() {
     location.href = "articles/sad ghost/sad-ghost.html"
+}
+
+function news3() {
+    location.href = "articles/discord down/discord-down.html"
     sessionStorage.setItem("clickedhome", false)
 }
 

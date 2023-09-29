@@ -88,6 +88,17 @@ li a:hover {
 .projects li::marker {
     color: #fff;
 }
+
+.orange {
+    color: orange;
+    margin: 0 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.orangetxt {
+    display: inline;
+}
   
 footer {
     background-color: #333;

@@ -32,7 +32,7 @@ li {
 
 li a {
     display: block;
-    padding: 10px;
+    padding: 8px;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -61,7 +61,7 @@ li a:hover {
 }
 
 .thumbnail {
-    width: 500px;
+    width: 1000px;
     height: 300px;
     border: 1px solid black;
     cursor: pointer;

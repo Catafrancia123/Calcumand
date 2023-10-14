@@ -90,10 +90,9 @@ li a:hover {
 }
 
 .orange {
-    color: orange;
-    margin: 0 5px;
-    display: inline-block;
+    display: contents;
     vertical-align: top;
+    color: orange;
 }
 
 .orangetxt {

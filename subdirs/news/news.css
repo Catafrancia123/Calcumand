@@ -132,6 +132,12 @@ li a:hover {
     font-size: 24px;
     text-align: center;
 }
+
+.discord{
+    display: contents;
+    vertical-align: top;
+    color: orange;
+}
   
 footer {
     background-color: #383838;

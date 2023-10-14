@@ -14,10 +14,6 @@ function homeclickarticle() {
     sessionStorage.setItem("clickedhome", true)
 }
 
-function orange() {
-    window.location.href = "about:blank"
-}
-
 function updateDate() {
     // Get the current date
     var currentDate = new Date();

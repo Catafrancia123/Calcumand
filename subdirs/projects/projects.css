@@ -133,7 +133,7 @@ li a:hover {
 }
 
 .sololearn {
-    display: inline-block;
+    display: contents;
     vertical-align: top;
     color: orange;
 }
@@ -148,6 +148,16 @@ li a:hover {
   
 .under-detail {
     width: 60%;
+}
+
+.under-detail button {
+    background-color: #383838;
+    border-color: #fff;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 120px;
+    height: 40px;
+    margin: 0px;
 }
 
 footer {

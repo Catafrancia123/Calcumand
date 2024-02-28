@@ -23,7 +23,7 @@ ul {
     padding: 0;
     display: flex;
     justify-content: center;
-}
+}   
 
 li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -42,101 +42,67 @@ li a:hover {
     background-color: #313131;
 }
 
-.news-box {
+.portfolio-box {
     background-color: #313131;
     color: white;
     padding: 20px;
 }
 
-.news-box h1 {
+.portfolio-box h1, h3 {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
+	text-align: left;
+    font-weight: bold;
 }
 
-.news-box h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-}
-
-.news-box p {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-}
-
-.daily-text h2{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-.thumbnails {
-    display: flex;
-}
-
-.thumbnail {
-    width: 500px;
-    height: 300px;
-    border: 1px solid black;
-    cursor: pointer;
-    margin-right: 5px;
-}
-  
-.thumbnail img {
-    width: 100%;
-    height: 70%;
-    object-fit: fill;
-}
-  
-.thumbnail h2 {
-    margin: 10px;
-    font-size: 24px;
-    text-align: center;
-}
-
-.thumbnail2 {
-    width: 500px;
-    height: 300px;
-    border: 1px solid black;
-    cursor: pointer;
-    margin-right: 10px;
-}
-  
-.thumbnail2 img {
-    width: 100%;
-    height: 70%;
-    object-fit: fill;
-}
-  
-.thumbnail2 h2 {
-    margin: 10px;
-    font-size: 24px;
-    text-align: center;
-}
-
-.thumbnaildc {
-    width: 900px;
-    height: 300px;
-    border: 1px solid black;
-    cursor: pointer;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-  
-.thumbnaildc img {
-    width: 100%;
-    height: 70%;
-    object-fit: fill;
-}
-  
-.thumbnaildc h2 {
-    margin: 10px;
-    font-size: 24px;
-    text-align: center;
-}
-
-.discord {
+.orange {
     display: contents;
     vertical-align: top;
     color: orange;
+}
+
+.portfolio-box center {
+    font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.description ul {
+    list-style-type: disc;
+    padding: 5px;
+    display: inline-block ;
+}
+  
+.description li::marker {
+    color: #fff;
+}
+
+.example {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.example ul {
+    list-style-type: disc;
+    padding: 5px;
+    display: inline-block ;
+}
+  
+.example li::marker {
+    color: #fff;
+}
+
+.orange {
+    display: contents;
+    vertical-align: top;
+    color: orange;
+}
+
+.orangetxt {
+    display: inline;
 }
   
 footer {
